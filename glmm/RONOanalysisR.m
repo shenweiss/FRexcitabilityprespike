@@ -191,6 +191,7 @@ dsraster_t=[];
 for j=1:numel(HFO(:,1))
        counter=counter+1;
        HFO_start=start_t(j);
+       unit_ts=round(unit_ts,3);
        HFO_begin=round(HFO_start,3)-1;
        HFO_end=round(HFO_start,3)+1;
        angle_begin=round(HFO_start,3)-0.03;
